@@ -1,0 +1,17 @@
+{
+  "name": "fresh-press-login",
+  "version": "1.0.0",
+  "description": "A secure login form inspired by OWASP Juice Shop, with client- and server-side validation and bcrypt password handling.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["owasp", "security", "login", "bcrypt", "xss", "sql-injection"],
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0"
+  }
+}
